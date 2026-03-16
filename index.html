@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHIFT – Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #151210;
+      --surface:  #1E1B18;
+      --card:     #242019;
+      --teal:     #7BC4B4;
+      --cream:    #EDE8E0;
+      --muted:    #9E9589;
+      --body:     #C8C2B8;
+      --border:   #2D2820;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--body);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      padding: 0 16px 80px;
+    }
+
+    .wrapper {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 56px 0 40px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 44px;
+    }
+
+    .logo-grid {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      width: 62px;
+      margin-bottom: 28px;
+    }
+
+    .tile {
+      width: 18px;
+      height: 18px;
+      border-radius: 4px;
+      background: var(--cream);
+    }
+    .tile.teal  { background: var(--teal); }
+    .tile.blank { background: var(--surface); }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 200;
+      letter-spacing: 10px;
+      color: var(--cream);
+    }
+
+    .tagline {
+      margin-top: 6px;
+      font-size: 11px;
+      letter-spacing: 4px;
+      color: var(--muted);
+      text-transform: lowercase;
+    }
+
+    .accent-bar {
+      width: 40px;
+      height: 1.5px;
+      background: var(--teal);
+      margin: 14px 0 0;
+    }
+
+    /* ── Effective date ── */
+    .meta {
+      font-size: 13px;
+      color: var(--muted);
+      letter-spacing: 0.5px;
+      margin-bottom: 44px;
+    }
+
+    /* ── Sections ── */
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 14px;
+    }
+
+    p {
+      color: var(--body);
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      padding: 6px 0 6px 18px;
+      position: relative;
+      color: var(--body);
+      border-bottom: 1px solid var(--border);
+    }
+
+    ul li:last-child { border-bottom: none; }
+
+    ul li::before {
+      content: "›";
+      position: absolute;
+      left: 0;
+      color: var(--teal);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin-bottom: 16px;
+    }
+
+    .card-label {
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 6px;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--cream);
+      margin-bottom: 8px;
+    }
+
+    .card p { font-size: 14px; }
+
+    /* ── Tag pills ── */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .tag {
+      font-size: 11px;
+      letter-spacing: 1px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      color: var(--muted);
+    }
+
+    .tag.green {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+
+    /* ── Highlight box ── */
+    .highlight {
+      border-left: 2px solid var(--teal);
+      padding: 14px 18px;
+      background: var(--surface);
+      border-radius: 0 10px 10px 0;
+      margin-bottom: 16px;
+    }
+
+    .highlight p { font-size: 14px; margin: 0; }
+
+    /* ── Links ── */
+    a {
+      color: var(--teal);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 64px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 28px; letter-spacing: 8px; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <header>
+    <!-- Mini tile grid logo -->
+    <div class="logo-grid">
+      <div class="tile"></div><div class="tile"></div><div class="tile teal"></div>
+      <div class="tile"></div><div class="tile"></div><div class="tile blank"></div>
+      <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+    </div>
+    <h1>SHIFT</h1>
+    <p class="tagline">a letter puzzle</p>
+    <div class="accent-bar"></div>
+  </header>
+
+  <p class="meta">Privacy Policy &nbsp;·&nbsp; Effective date: March 16, 2026</p>
+
+  <!-- 1. Overview -->
+  <section>
+    <h2>Overview</h2>
+    <div class="highlight">
+      <p>SHIFT is a single-player letter puzzle game. It does <strong>not</strong> require an account, does not collect your name, email, location, or any personally identifying information, and does not share your gameplay data with any third party — with the sole exception of the Google AdMob advertising SDK, described below.</p>
+    </div>
+    <p>This policy explains exactly what data is collected, by whom, and why.</p>
+  </section>
+
+  <!-- 2. What we collect -->
+  <section>
+    <h2>Data We Collect</h2>
+
+    <div class="card">
+      <div class="card-label">Collected by us</div>
+      <div class="card-title">Game Progress (stored locally on your device)</div>
+      <p>SHIFT saves your puzzle progress — levels completed, stars earned, and your current level — on-device using Android's DataStore Preferences. This data never leaves your device and is not transmitted to any server.</p>
+      <div class="tags">
+        <span class="tag green">On-device only</span>
+        <span class="tag green">Never transmitted</span>
+        <span class="tag green">No account required</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-label">Collected by Google (third party)</div>
+      <div class="card-title">Advertising Data via Google AdMob</div>
+      <p>SHIFT displays ads provided by Google AdMob. Google may collect and use certain data from your device in order to serve personalised or contextual ads, including:</p>
+      <ul>
+        <li>Advertising ID (Android Ad ID) — a resettable device identifier</li>
+        <li>Approximate IP-derived location (country/region)</li>
+        <li>Device information (model, OS version, screen size, language)</li>
+        <li>Ad interaction data (impressions, clicks)</li>
+        <li>App usage signals used for ad targeting</li>
+      </ul>
+      <p>This data is collected and processed by Google LLC in accordance with Google's own privacy policy. We do not receive or store this data ourselves.</p>
+      <div class="tags">
+        <span class="tag">Collected by Google</span>
+        <span class="tag">Not stored by us</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. What we do NOT collect -->
+  <section>
+    <h2>What We Do Not Collect</h2>
+    <ul>
+      <li>Name, email address, or any contact information</li>
+      <li>Precise GPS or fine location data</li>
+      <li>Camera or microphone access</li>
+      <li>Contacts, calendar, or files</li>
+      <li>Account credentials or payment information</li>
+      <li>Any data from children under 13 (see Children's Privacy below)</li>
+    </ul>
+  </section>
+
+  <!-- 4. Permissions -->
+  <section>
+    <h2>App Permissions</h2>
+    <p>SHIFT requests only one device permission:</p>
+    <div class="card">
+      <div class="card-label">Permission</div>
+      <div class="card-title">INTERNET</div>
+      <p>Required solely to load and display advertisements via Google AdMob. The app does not use this permission to transmit your gameplay data or any personal information.</p>
+    </div>
+  </section>
+
+  <!-- 5. Ads -->
+  <section>
+    <h2>Advertising</h2>
+    <p>SHIFT uses three ad formats provided by Google AdMob:</p>
+    <ul>
+      <li><strong>Banner ads</strong> — displayed at the bottom of the home screen</li>
+      <li><strong>Interstitial ads</strong> — shown occasionally between levels, at natural transition points</li>
+      <li><strong>Rewarded interstitial ads</strong> — shown voluntarily when you choose to watch an ad in exchange for an in-game hint. You are always given the option to decline.</li>
+    </ul>
+    <p>You can opt out of personalised advertising at any time through your device settings: <strong>Settings › Google › Ads › Opt out of Ads Personalisation</strong>. You can also reset your Advertising ID from the same menu.</p>
+    <p>For more information on how Google uses data from apps, visit: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a></p>
+  </section>
+
+  <!-- 6. Third-party services -->
+  <section>
+    <h2>Third-Party Services</h2>
+    <div class="card">
+      <div class="card-label">Third-party SDK</div>
+      <div class="card-title">Google AdMob</div>
+      <p>Provider: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</p>
+      <p style="margin-top:8px;">Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></p>
+    </div>
+    <p>No other third-party SDKs, analytics services, or crash-reporting tools are integrated in SHIFT.</p>
+  </section>
+
+  <!-- 7. Children -->
+  <section>
+    <h2>Children's Privacy</h2>
+    <p>SHIFT is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. Google AdMob is configured for general audiences; if you believe a child under 13 has been exposed to personalised advertising through this app, please contact us at the email below so we can take appropriate action.</p>
+    <p>If you are a parent or guardian and you are aware that your child has provided us with any personal data, please contact us immediately.</p>
+  </section>
+
+  <!-- 8. Data retention -->
+  <section>
+    <h2>Data Retention</h2>
+    <p>The only data stored by the app is your local game progress, which remains on your device until you uninstall the app or clear the app's data via Android Settings. We have no access to this data and cannot delete it on your behalf — you can remove it at any time by clearing app data or uninstalling SHIFT.</p>
+  </section>
+
+  <!-- 9. Your rights -->
+  <section>
+    <h2>Your Rights</h2>
+    <p>Depending on your country of residence, you may have rights regarding your personal data, including the right to access, correct, or delete it. Since we do not collect or store personal data ourselves, most of these rights apply to data held by Google rather than by us.</p>
+    <ul>
+      <li><strong>Opt out of personalised ads</strong> — via Android Settings › Google › Ads</li>
+      <li><strong>Reset your Advertising ID</strong> — via Android Settings › Google › Ads</li>
+      <li><strong>Delete local game data</strong> — via Android Settings › Apps › SHIFT › Clear Data</li>
+      <li><strong>Requests regarding Google's data</strong> — <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a></li>
+    </ul>
+  </section>
+
+  <!-- 10. Security -->
+  <section>
+    <h2>Security</h2>
+    <p>Because SHIFT stores all data locally and does not transmit personal information to any server, there is no server-side data at risk of breach. Your game progress is protected by your device's standard Android security model.</p>
+  </section>
+
+  <!-- 11. Changes -->
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>If we make material changes to this privacy policy, we will update the effective date at the top of this page and, where appropriate, notify you through the app or the Play Store listing. We encourage you to review this page periodically.</p>
+  </section>
+
+  <!-- 12. Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>If you have any questions or concerns about this privacy policy, please contact us at:</p>
+    <div class="card">
+      <p><strong style="color:var(--cream)">Email:</strong> <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+      <p style="margin-top:6px;font-size:13px;color:var(--muted);">Replace this with your real contact email before publishing.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>SHIFT &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp; Last updated March 16, 2026</p>
+    <p style="margin-top:6px;">This policy applies to the SHIFT Android application.</p>
+  </footer>
+
+</div>
+</body>
+</html>
